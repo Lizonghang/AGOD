@@ -8,7 +8,7 @@ Please note that only the main framework is currently open-sourced. We will imme
 
 If our code is useful to you, please cite:
 
-*Hongyang Du, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Huawei Huang, and Shiwen Mao. "Generative AI-aided Optimization for AI-Generated Content (AIGC) Services in Edge Networks." arXiv preprint arXiv:2303.13052 (2023).*
+*Hongyang Du, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Huawei Huang, and Shiwen Mao. ["Generative AI-aided Optimization for AI-Generated Content (AIGC) Services in Edge Networks."](https://arxiv.org/abs/2303.13052) arXiv preprint arXiv:2303.13052 (2023).*
 
 @article{du2023generative,
   title={Generative AI-aided Optimization for AI-Generated Content (AIGC) Services in Edge Networks},
