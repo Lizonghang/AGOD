@@ -1,6 +1,6 @@
 # Generative AI-aided Optimization For AI-Generated Content (AIGC) Services in Wireless Edge Network
 
-This repository is an implementation of the system design and the proposed D2SAC algorithm presented in:
+This repository is an implementation of the system design and the proposed Deep Diffusion Soft Actor-Critic (D2SAC) algorithm presented in:
 
 > **"Generative AI-aided Optimization For AI-Generated Content (AIGC) Services in Wireless Edge Network"**
 
