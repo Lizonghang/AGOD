@@ -1,8 +1,8 @@
-# Generative AI-aided Optimization For AI-Generated Content (AIGC) Services in Wireless Edge Network
+# Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services
 
 This repository is an implementation of the system design and the proposed Deep Diffusion Soft Actor-Critic (D2SAC) algorithm presented in:
 
-> **"Generative AI-aided Optimization For AI-Generated Content (AIGC) Services in Wireless Edge Network"**
+> **"Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services"**
 
 Authored by *Hongyang Du, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, Huawei Huang, and Shiwen Mao*.
 
@@ -14,7 +14,7 @@ If our code is useful to you, please cite:
 
 ```bibtex
 @article{du2023generative,
-  title={Generative AI-aided Optimization for AI-Generated Content (AIGC) Services in Edge Networks},
+  title={Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services},
   author={Du, Hongyang and Li, Zonghang and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Huang, Huawei and Mao, Shiwen},
   journal={arXiv preprint arXiv:2303.13052},
   year={2023}
