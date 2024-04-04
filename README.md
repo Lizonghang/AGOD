@@ -13,10 +13,12 @@ If our code is useful to you, please cite:
 ## Citation
 
 ```bibtex
-@article{du2023generative,
-  title={Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services},
+@article{du2024diffusion,
+  title={Diffusion-based Reinforcement Learning for Edge-enabled {AI}-Generated Content Services},
   author={Du, Hongyang and Li, Zonghang and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Huang, Huawei and Mao, Shiwen},
-  journal={arXiv preprint arXiv:2303.13052},
-  year={2023}
+  journal={IEEE Transactions on Mobile Computing},
+  year={2024},
+  publisher={IEEE}
 }
+
 ```
