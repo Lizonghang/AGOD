@@ -25,7 +25,6 @@ RUN APT_INSTALL="apt install -y --no-install-recommends" && \
         apt-transport-https \
         openssh-client \
         openssh-server \
-        libopencv-dev \
         libsnappy-dev \
         libopenblas-dev \
         libatlas-base-dev \
@@ -36,7 +35,7 @@ RUN APT_INSTALL="apt install -y --no-install-recommends" && \
 
 
 # install miniconda
-RUN curl -o ~/anaconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
+RUN curl -o ~/anaconda.sh https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py37_4.9.2-Linux-x86_64.sh && \
     chmod +x ~/anaconda.sh && \
     bash ~/anaconda.sh -b -p /opt/conda && \
     rm ~/anaconda.sh
@@ -54,26 +53,11 @@ RUN conda config --set show_channel_urls yes && \
 RUN conda install -y python=3.7 && \
     conda update --all
 
-# add ssh key for git
-ARG SSH_KEY
-
-RUN mkdir -p /root/.ssh/ && \
-    echo "$SSH_KEY" > /root/.ssh/id_rsa && \
-    chmod -R 600 /root/.ssh && \
-    ssh-keyscan -t rsa github.com >> /root/.ssh/known_hosts
-
-# install pytorch
-RUN pip install torch \
-                --extra-index-url https://download.pytorch.org/whl/cu116
-
 # install utils
 RUN pip install tianshou==0.4.10 \
-                gym==0.21.0 \
+                gym==0.23.1 \
                 pyglet==1.5.27 \
                 matplotlib \
                 tensorboard-plugin-customizable-plots
-
-# finally, remove ssh files
-RUN rm -r /root/.ssh
 
 WORKDIR /root
