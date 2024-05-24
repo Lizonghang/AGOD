@@ -1,5 +1,3 @@
-# USE build.sh FOR FAST AND CONVENIENT DOCKER BUILD
-
 FROM nvidia/cuda:11.3.0-cudnn8-devel-ubuntu16.04
 
 # apt tools
