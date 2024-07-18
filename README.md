@@ -8,6 +8,8 @@ Authored by *Hongyang Du, Zonghang Li, Dusit Niyato, Jiawen Kang, Zehui Xiong, H
 
 The paper can be found at [ArXiv](https://arxiv.org/abs/2303.13052).
 
+Please see <code>docker/Dockerfile</code> for running this project on Docker or use the prebuilt Docker image <code>lizonghango00o1/agod:cpu</code> from Dockerhub directly. Then, run <code>python main.py</code>.
+
 If our code is useful to you, please cite:
 
 ## Citation
