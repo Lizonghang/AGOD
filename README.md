@@ -20,6 +20,10 @@ If our code is useful to you, please cite:
   author={Du, Hongyang and Li, Zonghang and Niyato, Dusit and Kang, Jiawen and Xiong, Zehui and Huang, Huawei and Mao, Shiwen},
   journal={IEEE Transactions on Mobile Computing},
   year={2024},
+  volume={23},
+  number={9},
+  pages={8902-8918},
+  doi={10.1109/TMC.2024.3356178},
   publisher={IEEE}
 }
 
